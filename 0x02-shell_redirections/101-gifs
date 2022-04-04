@@ -1,0 +1,2 @@
+#!/bin/bash
+cme "*.gif" | rev | cut -d "/"102. -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f 
